@@ -5,3 +5,6 @@ from models import *
 
 def index(request):
     return render(request, 'chores_app/index.html')
+
+def add_child(request):
+    pass

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Welcome, name!</h1>
+
+
+    <h2>Add a child!</h2>
+    <form action='/add_child' method='POST'>
+
+      <label for='first_name'>First Name</label>
+      <input type='text' name='first_name'>
+
+      <label for='last_name'>Last Name</label>
+      <input type='text' name='last_name'>
+
+      <label for='birthday'>Birthday</label>
+      <input type='date' name='birthday'>
+
+      <label for='pw'>Password</label>
+      <input type='password' name='pw'>
+
+      <label for='pw_conf'>Password Confirmation</label>
+      <input type='password' name='pw_conf'>
+
+      <input type='submit'>
+    </form>
+
+    <h2>Add a chore!</h2>
+
+    <form action='add_chore' method='POST'>
+
+      <label for='chore'>Chore</label>
+      <input type='text' name='chore'>
+
+      <input type='submit'>
+    </form>
+
+
+
+  </body>
+</html>
